@@ -1,89 +1,121 @@
-/* Skills Section */
-.skills-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 4rem 2rem;
-    background: #0a0a00;
-    color: #ffffff;
+/*
+Plugin Name: Skills Style
+Author: Raju Ahammad
+url: http://rajuahammad.com
+*/
+
+.skillst5 .skillbar{
+	width: 100%;
+	height: 20px;
+	background-color: #fff;
+	position:relative;
+	margin-bottom:30px;
+	padding:4px;
+	box-sizing:border-box;
+}
+.skillst5 .count-bar{
+	width: 100%;
+	height: 12px;
+	width:0px;
+	position:relative;
+}
+.skillst5 .count-bar.color-1{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDM5NCAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjM5MTkxIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxOGIxYjAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMzkxOTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjM5NCIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+	background-image: -o-linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+	background-image: -webkit-linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+	background-image: linear-gradient(left, #239191 0%, #18b1b0 49.88%, #239191 100%);
+}
+.skillst5 .count-bar.color-2{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDM0MCAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzM0OTVkIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM0YTYzN2MiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMzQ5NWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjM0MCIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+	background-image: -o-linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+	background-image: -webkit-linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+	background-image: linear-gradient(left, #33495d 0%, #4a637c 49.88%, #33495d 100%);
+}
+.skillst5 .count-bar.color-3{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDE5MiAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjFjMzBmIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmYmQ5NTQiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMWMzMGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjE5MiIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+	background-image: -o-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+	background-image: -webkit-linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+	background-image: linear-gradient(left, #f1c30f 0%, #fbd954 49.88%, #f1c30f 100%);
+}
+.skillst5 .count-bar.color-4{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI3OSAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMjk3ZmI5IiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMxNDllZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyOTdmYjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI3OSIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+	background-image: -o-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+	background-image: -webkit-linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+	background-image: linear-gradient(left, #297fb9 0%, #149ef9 49.88%, #297fb9 100%);
+
 
 }
-.skills-heading{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    position: relative;
+.skillst5 .count-bar.color-5{
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDI2MiAxMiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGxpbmVhckdyYWRpZW50IGlkPSJoYXQwIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSIgeTE9IjUwJSIgeDI9IjEwMCUiIHkyPSI1MCUiPgo8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY1YjAxIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmOTY2MjAiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOTRmMGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICA8L2xpbmVhckdyYWRpZW50PgoKPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjI2MiIgaGVpZ2h0PSIxMiIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
+	background-image: -moz-linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+	background-image: -o-linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+	background-image: -webkit-linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
+	background-image: linear-gradient(left, #ff5b01 0%, #f96620 49.88%, #d94f0d 100%);
 }
-.skills-heading::after{
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #ff4500;
-    margin: 10px auto;
-    border-radius: 2px;
-    animation: fadeIn 1.5s ease-in-out;
+.skillst5 .title{
+	position:absolute;
+	line-height:25px;
+	top:-25px;
+	left:0;
+	padding-left:10px;
 }
-.skills-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 900px;
+.skillst5 .count-bar .count{
+	position:absolute;
+	line-height:18px;
+	top:-28px;
+	right:-15px;
+	width: 40px;
+	height: 18px;
+	color:#fff;
+	text-align:center;
 }
-.skill-category{
-    background: rgba(255, 69, 0, 0.1);
-    padding: 1.5rem;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 400px;
-    text-align: left;
-    box-shadow: 0px 4px 10px rgba(255, 69, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+.skillst5 .count-bar .count span{
+	position:relative;
+	display:block;
 }
-.skill-category:hover{
-    transform: scale(1.02);
+.skillst5 .count-bar .count span:after{
+	position:absolute;
+	left:50%;
+	margin-left:0;
+/*	margin-left:-4px;*/
+	top:18px;
+	content:"";
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
 }
-.category-title{
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    color: #ff4500;
+.skillst5 .count-bar.color-1 .count{
+	background-color: #239191;
 }
-.skill-item{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
+.skillst5 .count-bar.color-1 .count span:after{
+	border-top:4px solid #239191;
 }
-.skill-name{
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
+.skillst5 .count-bar.color-2 .count{
+	background-color: #34495e;
 }
-.skill-bar{
-    width: 100%;
-    height: 10px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-    /* overflow: hidden; */
-    position: relative;
+.skillst5 .count-bar.color-2 .count span:after{
+	border-top:4px solid #34495e;
 }
-.skill-fill{
-    height: 100%;
-    background: #00FF7F;
-    width: 0%;
-    transition: width 1s ease-in-out;
-    border-radius: 5px;
+.skillst5 .count-bar.color-3 .count{
+	background-color: #f1c40f;
 }
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    
+.skillst5 .count-bar.color-3 .count span:after{
+	border-top:4px solid #f1c40f;
 }
+.skillst5 .count-bar.color-4 .count{
+	background-color: #2980b9;
+}
+.skillst5 .count-bar.color-4 .count span:after{
+	border-top:4px solid #2980b9;
+}
+.skillst5 .count-bar.color-5 .count{
+	background-color: #da500e;
+}
+.skillst5 .count-bar.color-5 .count span:after{
+	border-top:4px solid #da500e;
+}
+
+/* skilbar css */
